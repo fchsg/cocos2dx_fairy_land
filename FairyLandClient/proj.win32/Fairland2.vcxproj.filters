@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\animation">
+      <UniqueIdentifier>{7e1406dd-c2f2-4feb-bc07-1ef4bcf33052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\core">
+      <UniqueIdentifier>{3171214f-10da-4381-9abe-6d8fb0b7d274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\common">
+      <UniqueIdentifier>{bb553a01-aa29-4bc9-9c3d-e290f34ebe83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{47686e3a-bc15-4365-b409-2df153a1a922}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\animation\YYActionSet.cpp">
+      <Filter>Classes\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\animation\YYFrameData.cpp">
+      <Filter>Classes\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\animation\YYRect.cpp">
+      <Filter>Classes\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\animation\YYSprite.cpp">
+      <Filter>Classes\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYCatapultEffect.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYCellLayer.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYController.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYControlUILayer.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYCover.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYFightSprite.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYLayer.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYLinkEffect.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYLoading.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYLogo.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYNPC.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYPet.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYPlayer.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYPopUILayer.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYScene.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYSkill.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYSkillAction.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYSkillEffect.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYSoldier.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYSpriteLayer.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYStartLayer.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\YYTask.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\CursorTextField.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\FileReadManager.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\GeometricRecognizer.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\ODSocket.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\StringGBK.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\StringRes.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\StringUTF8.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\animation\YYActionData.h">
+      <Filter>Classes\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\animation\YYActionSet.h">
+      <Filter>Classes\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\animation\YYFrameData.h">
+      <Filter>Classes\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\animation\YYRect.h">
+      <Filter>Classes\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\animation\YYSprite.h">
+      <Filter>Classes\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYButton.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYCatapultEffect.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYCellLayer.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYController.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYControlUILayer.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYCover.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYDragRegion.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYEquipment.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYFightSprite.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYLayer.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYLinkEffect.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYLoading.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYLogo.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYNPC.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYPet.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYPlayer.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYPopUILayer.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYProperty.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYScene.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYSkill.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYSkillAction.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYSkillActionData.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYSkillData.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYSkillEffect.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYSkillEffectData.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYSkillUIData.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYSoldier.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYSpriteAttribute.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYSpriteData.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYSpriteLayer.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYTask.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYTaskData.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYTaskTargetData.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\YYStartLayer.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\Common.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\CursorTextField.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\FileReadManager.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\GeometricRecognizer.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\GeometricRecognizerTypes.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\GestureTemplate.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\ODSocket.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\PathWriter.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\SampleGestures.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\StringRes.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="$(CCLib)libBox2D.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="$(CCLib)libchipmunk.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="$(CCLib)libcocos2d.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="$(CCLib)libCocosDenshion.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="$(CCLib)libcurl_imp.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="$(CCLib)libExtensions.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="$(CCLib)pthreadVCE2.lib">
+      <Filter>Libs</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C674D5B3-5495-4517-90E5-DE1F33EC9F3A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Fairyland</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8A539EC9-E815-4BF5-B20B-08B3D9D68A16</key>
+		<string>https://192.168.0.244/svn/GreatGames/xjRabbitCode/client/FairyLand_II</string>
+		<key>c2d1842d-189a-8842-b911-217d86e87e0c++2459</key>
+		<string>https://192.168.0.244/svn/GreatGames/xjRabbitCode/client/FairyLand_II</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>proj.ios/Fairyland.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8A539EC9-E815-4BF5-B20B-08B3D9D68A16</key>
+		<string>../../../../FairyLand_II</string>
+		<key>c2d1842d-189a-8842-b911-217d86e87e0c++2459</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>8A539EC9-E815-4BF5-B20B-08B3D9D68A16</key>
+		<string>https://192.168.0.244/svn/GreatGames</string>
+		<key>c2d1842d-189a-8842-b911-217d86e87e0c++2459</key>
+		<string>https://192.168.0.244/svn/GreatGames</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://192.168.0.244/svn/GreatGames/xjRabbitCode/client/FairyLand_II/proj.ios/Fairyland.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>c2d1842d-189a-8842-b911-217d86e87e0c++2459</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8A539EC9-E815-4BF5-B20B-08B3D9D68A16</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FairyLand_II</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>c2d1842d-189a-8842-b911-217d86e87e0c++2459</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FairyLand_II_New2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

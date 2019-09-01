@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C1D8F199-AC29-4A38-A60D-112BE1F8FC19}</ProjectGuid>
+    <RootNamespace>Fairland_win32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <CCRoot Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\cocos2d\cocos2d-x-2.2\</CCRoot>
+    <CCRoot Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\cocos2d\cocos2d-x-2.2\</CCRoot>
+    <cocos2dx Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(CCRoot)cocos2dx\</cocos2dx>
+    <cocos2dx Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(CCRoot)cocos2dx\</cocos2dx>
+    <CCLib Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(CCRoot)Debug.win32\</CCLib>
+    <CCLib Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(CCRoot)Release.win32\</CCLib>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(cocos2dx);$(cocos2dx)\include;$(cocos2dx)\kazmath\include;$(cocos2dx)\platform\win32;$(cocos2dx)\platform\third_party\win32;$(cocos2dx)\platform\third_party\win32\OGLES;$(cocos2dx)\platform\third_party\win32\pthread;$(CCRoot)external;$(CCRoot)external\chipmunk\include\chipmunk;$(CCRoot)external\libwebsockets\win32\include;$(CCRoot)CocosDenshion\include;$(CCRoot)extensions;$(CCRoot)extensions\network;$(CCRoot)extensions\GUI\CCControlExtension;..\Classes;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(CCRoot)external\libwebsockets\win32\lib\*.*" "$(OutDir)"
+</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(cocos2dx);$(cocos2dx)\include;$(cocos2dx)\kazmath\include;$(cocos2dx)\platform\win32;$(cocos2dx)\platform\third_party\win32;$(cocos2dx)\platform\third_party\win32\OGLES;$(cocos2dx)\platform\third_party\win32\pthread;$(CCRoot)external;$(CCRoot)external\chipmunk\include\chipmunk;$(CCRoot)external\libwebsockets\win32\include;$(CCRoot)CocosDenshion\include;$(CCRoot)extensions;$(CCRoot)extensions\network;$(CCRoot)extensions\GUI\CCControlExtension;..\Classes;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;websockets.lib;pthreadVCE2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(CCRoot)external\libwebsockets\win32\lib\*.*" "$(OutDir)"
+</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\common\StringGBK.cpp" />
+    <ClCompile Include="..\Classes\common\StringRes.cpp" />
+    <ClCompile Include="..\Classes\common\StringUTF8.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\Classes\animation\YYActionSet.cpp" />
+    <ClCompile Include="..\Classes\animation\YYFrameData.cpp" />
+    <ClCompile Include="..\Classes\animation\YYRect.cpp" />
+    <ClCompile Include="..\Classes\animation\YYSprite.cpp" />
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\common\CursorTextField.cpp" />
+    <ClCompile Include="..\Classes\common\FileReadManager.cpp" />
+    <ClCompile Include="..\Classes\common\GeometricRecognizer.cpp" />
+    <ClCompile Include="..\Classes\common\ODSocket.cpp" />
+    <ClCompile Include="..\Classes\core\YYCatapultEffect.cpp" />
+    <ClCompile Include="..\Classes\core\YYCellLayer.cpp" />
+    <ClCompile Include="..\Classes\core\YYController.cpp" />
+    <ClCompile Include="..\Classes\core\YYControlUILayer.cpp" />
+    <ClCompile Include="..\Classes\core\YYCover.cpp" />
+    <ClCompile Include="..\Classes\core\YYFightSprite.cpp" />
+    <ClCompile Include="..\Classes\core\YYLayer.cpp" />
+    <ClCompile Include="..\Classes\core\YYLinkEffect.cpp" />
+    <ClCompile Include="..\Classes\core\YYLoading.cpp" />
+    <ClCompile Include="..\Classes\core\YYLogo.cpp" />
+    <ClCompile Include="..\Classes\core\YYNPC.cpp" />
+    <ClCompile Include="..\Classes\core\YYPet.cpp" />
+    <ClCompile Include="..\Classes\core\YYPlayer.cpp" />
+    <ClCompile Include="..\Classes\core\YYPopUILayer.cpp" />
+    <ClCompile Include="..\Classes\core\YYScene.cpp" />
+    <ClCompile Include="..\Classes\core\YYSkill.cpp" />
+    <ClCompile Include="..\Classes\core\YYSkillAction.cpp" />
+    <ClCompile Include="..\Classes\core\YYSkillEffect.cpp" />
+    <ClCompile Include="..\Classes\core\YYSoldier.cpp" />
+    <ClCompile Include="..\Classes\core\YYSpriteLayer.cpp" />
+    <ClCompile Include="..\Classes\core\YYStartLayer.cpp" />
+    <ClCompile Include="..\Classes\core\YYTask.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\common\StringRes.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="..\Classes\animation\YYActionData.h" />
+    <ClInclude Include="..\Classes\animation\YYActionSet.h" />
+    <ClInclude Include="..\Classes\animation\YYFrameData.h" />
+    <ClInclude Include="..\Classes\animation\YYRect.h" />
+    <ClInclude Include="..\Classes\animation\YYSprite.h" />
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\common\Common.h" />
+    <ClInclude Include="..\Classes\common\CursorTextField.h" />
+    <ClInclude Include="..\Classes\common\FileReadManager.h" />
+    <ClInclude Include="..\Classes\common\GeometricRecognizer.h" />
+    <ClInclude Include="..\Classes\common\GeometricRecognizerTypes.h" />
+    <ClInclude Include="..\Classes\common\GestureTemplate.h" />
+    <ClInclude Include="..\Classes\common\ODSocket.h" />
+    <ClInclude Include="..\Classes\common\PathWriter.h" />
+    <ClInclude Include="..\Classes\common\SampleGestures.h" />
+    <ClInclude Include="..\Classes\core\YYButton.h" />
+    <ClInclude Include="..\Classes\core\YYCatapultEffect.h" />
+    <ClInclude Include="..\Classes\core\YYCellLayer.h" />
+    <ClInclude Include="..\Classes\core\YYController.h" />
+    <ClInclude Include="..\Classes\core\YYControlUILayer.h" />
+    <ClInclude Include="..\Classes\core\YYCover.h" />
+    <ClInclude Include="..\Classes\core\YYDragRegion.h" />
+    <ClInclude Include="..\Classes\core\YYEquipment.h" />
+    <ClInclude Include="..\Classes\core\YYFightSprite.h" />
+    <ClInclude Include="..\Classes\core\YYLayer.h" />
+    <ClInclude Include="..\Classes\core\YYLinkEffect.h" />
+    <ClInclude Include="..\Classes\core\YYLoading.h" />
+    <ClInclude Include="..\Classes\core\YYLogo.h" />
+    <ClInclude Include="..\Classes\core\YYNPC.h" />
+    <ClInclude Include="..\Classes\core\YYPet.h" />
+    <ClInclude Include="..\Classes\core\YYPlayer.h" />
+    <ClInclude Include="..\Classes\core\YYPopUILayer.h" />
+    <ClInclude Include="..\Classes\core\YYProperty.h" />
+    <ClInclude Include="..\Classes\core\YYScene.h" />
+    <ClInclude Include="..\Classes\core\YYSkill.h" />
+    <ClInclude Include="..\Classes\core\YYSkillAction.h" />
+    <ClInclude Include="..\Classes\core\YYSkillActionData.h" />
+    <ClInclude Include="..\Classes\core\YYSkillData.h" />
+    <ClInclude Include="..\Classes\core\YYSkillEffect.h" />
+    <ClInclude Include="..\Classes\core\YYSkillEffectData.h" />
+    <ClInclude Include="..\Classes\core\YYSkillUIData.h" />
+    <ClInclude Include="..\Classes\core\YYSoldier.h" />
+    <ClInclude Include="..\Classes\core\YYSpriteAttribute.h" />
+    <ClInclude Include="..\Classes\core\YYSpriteData.h" />
+    <ClInclude Include="..\Classes\core\YYSpriteLayer.h" />
+    <ClInclude Include="..\Classes\core\YYStartLayer.h" />
+    <ClInclude Include="..\Classes\core\YYTask.h" />
+    <ClInclude Include="..\Classes\core\YYTaskData.h" />
+    <ClInclude Include="..\Classes\core\YYTaskTargetData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="$(CCLib)libBox2D.lib" />
+    <Library Include="$(CCLib)libchipmunk.lib" />
+    <Library Include="$(CCLib)libcocos2d.lib" />
+    <Library Include="$(CCLib)libCocosDenshion.lib" />
+    <Library Include="$(CCLib)libcurl_imp.lib" />
+    <Library Include="$(CCLib)libExtensions.lib" />
+    <Library Include="$(CCLib)pthreadVCE2.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
