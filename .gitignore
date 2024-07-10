@@ -32,3 +32,5 @@
 *.app
 cocos2d-x-2.2.6
 FairyLandClient/proj.ios/Fairyland.xcodeproj/project.xcworkspace/xcuserdata/chenhaofu.xcuserdatad
+FairyLandClient/.DS_Store
+.DS_Store
